@@ -4,14 +4,14 @@ body{
 
 .header_cabecalho {
     background-color: black;
-    display: flex;
+    display: block;
     padding: 30px;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0;
 }
-.cabecalho {
+.header_cabecalho h1 {
     color: white;
     font-family: Aldrich;
     font-size: 60px;
-    padding: 5px 300px 5px 300px;
+    text-align: center;
 }
