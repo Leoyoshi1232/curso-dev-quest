@@ -5,13 +5,28 @@ body{
 .header_cabecalho {
     background-color: black;
     display: block;
-    padding: 30px;
+    padding: 20px;
     max-width: 1440px;
     margin: 0;
 }
 .header_cabecalho h1 {
     color: white;
     font-family: Aldrich;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
+}
+
+main {
+    background-color: #703890;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+main div img, p, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 5px;
+}
+
+main div img {
+    float: left;
 }
